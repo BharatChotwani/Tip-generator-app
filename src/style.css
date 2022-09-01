@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif, "Raleway";
+background-color: #eaeffe;
+}
+
+.container{
+    /* background-color: black;
+    color: white; */
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+    margin: 0px auto;
+    padding: 12px 24px;
+}
+
+input[type=text]{
+    display: block;
+    margin: 8px auto;
+    padding: 12px 24px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 12px 24px;
+    width: 80%;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 8px auto;
+    display: block;
+    cursor: pointer;
+}
